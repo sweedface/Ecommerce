@@ -1,0 +1,6 @@
+.layout-main {
+    height: calc(100vh - 70px); /* Ajusta si el navbar mide diferente */
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }

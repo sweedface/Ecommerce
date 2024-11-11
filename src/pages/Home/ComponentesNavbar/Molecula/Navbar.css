@@ -1,0 +1,20 @@
+/* src/components/Navbar.css */
+.navbar {
+  width: 250px; /* Ajusta según lo que necesites */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  position: fixed; /* Fijado a la izquierda */
+  top: 0;
+  left: 0;
+  background-color: #000; /* Fondo negro */
+  overflow-y: auto; /* Scroll vertical si el contenido excede la altura */
+}
+
+.navbar-item {
+  margin: 10px 0; /* Espaciado entre los ítems */
+  text-align: center; /* Centra el texto dentro de cada ítem */
+}
+
+.content {
+  margin-left: 250px; /* Deja espacio para el navbar */
+  padding: 20px;
+}

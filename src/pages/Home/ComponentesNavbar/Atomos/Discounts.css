@@ -1,0 +1,20 @@
+/* src/Componentes/Atomos/Discount.css */
+
+.Discounts {
+    display: flex; /* Permite alinear el icono y el texto en la misma línea */
+    align-items: center; /* Centra verticalmente el icono y el texto */
+    padding: 10px 15px; /* Espaciado alrededor del elemento */
+    color: #fff; /* Color del texto */
+    font-family: 'Lexend Giga', sans-serif; /* Asegúrate de que esta fuente esté importada en tu proyecto */
+    font-weight: bold; /* Fuente en negrita para el texto "Discounts" */
+    font-size: 13px; /* Tamaño de fuente */
+  }
+  .DiscountIcon-container {
+    margin-right: 15px; /* Espacio entre el contenedor del icono y el texto */
+    display: flex; /* Asegura que el margen se aplique correctamente */
+}
+
+  .DiscountIcon {
+    width: 16px; /* Tamaño del icono */
+    height: auto; /* Mantiene la relación de aspecto del icono */
+  }

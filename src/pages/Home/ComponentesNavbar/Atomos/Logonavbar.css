@@ -1,0 +1,16 @@
+/* src/components/Logonavbar.css */
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centra el logo horizontalmente */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho del navbar */
+    margin-top: 71px; /* Desplaza el logo 71px hacia abajo */
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 150px;
+    
+  }
+  

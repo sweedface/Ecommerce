@@ -1,0 +1,42 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "product.title": "Cities Skylines: Complete Edition Digital / Disc version)",
+      "product.Description": "",
+      "price": 17,
+      "product.image": "./src/assets/PCgamesImage1.png",
+      "liked": true,
+      "inCart": false
+    },
+    {
+      "id": "2",
+      "product.title": "Cities Skylines II: Day one edition (Digital / Disc version)",
+      "product.Description": "",
+      "price": 50,
+      "image": "./src/assets/PCgamesImage2.png",
+      "liked": false,
+      "inCart": false
+    },
+    {
+      "id": "3",
+      "product.title": "The Sims 4: All DLC’s (Digital / Disc version)",
+      "product.Description": "",
+      "price": 1.001,
+      "product.image": "./src/assets/PCgamesImage3.png",
+      "liked": false
+    },
+    {
+      "id": "4",
+      "product.title": "Tekken 7 (Digital / Disc version)",
+      "product.Description": "¡Last in stock!",
+      "price": 41,
+      "product.image": "./src/assets/PCgamesImage4.png"
+    },
+    {
+      "id": "5",
+      "Description2": "",
+      "product.image": "./src/assets/PCgamesImage5.png"
+    }
+  ]
+}

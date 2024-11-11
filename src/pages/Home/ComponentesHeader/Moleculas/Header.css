@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px; /* Deja espacio para el navbar */
+  padding: 20px;
+}
+    .header-container {
+   /* Espacio entre el límite superior y el header */
+    border-bottom: 1px solid #000000; /* Línea inferior */
+    border-width: 100%;
+}

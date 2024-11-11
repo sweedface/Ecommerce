@@ -1,0 +1,44 @@
+/* src/Componentes/Atomos/DevicesDropdown.css */
+
+.dropdown-section {
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Lexend Giga', sans-serif;
+    margin-top: 22px;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 13px; /* Tamaño para "Electronic devices" */
+  }
+  
+  .triangle {
+    margin-right: 8px; /* Mueve el triángulo a la izquierda */
+    transition: transform 0.3s;
+  }
+  
+  .triangle.open {
+    transform: rotate(180deg); /* Gira el triángulo cuando está abierto */
+  }
+  
+  .dropdown-content {
+    margin-left: 20px;
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 12px; /* Tamaño de fuente para "PC" y "Console" */
+    font-weight: 600;
+  }
+  
+  .TeamIcon,
+  .ContactIcon {
+    width: 16px;
+    height: auto;
+    margin-right: 15px; /* Espacio entre el icono y el texto */
+  }

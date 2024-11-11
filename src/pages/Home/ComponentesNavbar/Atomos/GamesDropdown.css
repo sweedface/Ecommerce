@@ -1,0 +1,47 @@
+/* src/Componentes/Atomos/GamesDropdown.css */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@400;600;700&display=swap');
+
+.dropdown-section {
+    cursor: pointer;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Lexend Giga', sans-serif;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 13px; /* Tamaño para "Games" */
+  }
+  
+  .triangle {
+    margin-left: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .triangle.open {
+    transform: rotate(180deg); /* Gira el triángulo cuando está abierto */
+  }
+  
+  .dropdown-content {
+    margin-left: 20px; /* Alineación con interlineado similar al ejemplo */
+  }
+  
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 12px; /* Tamaño de fuente para "Console" y "PC" */
+    font-weight: 600; /* Semibold */
+  }
+  
+  .icon-console,
+  .icon-pc {
+    width: 16px; /* Ajusta el tamaño del icono */
+    height: auto;
+    margin-right: 15px;
+  }
+  

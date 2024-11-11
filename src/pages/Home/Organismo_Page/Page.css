@@ -1,0 +1,20 @@
+
+.App {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 250px; /* Deja espacio para el navbar */
+    padding: 20px;
+  }
+  .PageProduct {
+    .Page-board {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin-left: 20%;
+    }
+    .Page-items {
+    width: 100%;
+    }
+}
